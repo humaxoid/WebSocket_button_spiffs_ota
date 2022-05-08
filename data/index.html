@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
   <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,6 +8,7 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <title>ESP Web Server</title>
 </head>
+
 <body>
   <div class="topnav">
     <h1>ESP WebSocket Server</h1>
@@ -15,21 +17,26 @@
     <div class="card">
       <h2>Out - GPIO 32</h2>
       <p class="state">Status: <span id="state1">%STATE1%</span></p>
-      <p><button id="button1" class="button">Button 1</button></p>  
-	  <h2>Out - GPIO 33</h2>
+      <p><button id="button1" class="button">Button 1</button></p>
+      <h2>Out - GPIO 33</h2>
       <p class="state">Status: <span id="state2">%STATE2%</span></p>
       <p><button id="button2" class="button">Button 2</button></p>
-	  <h2>Out - GPIO 25</h2>
+      <h2>Out - GPIO 25</h2>
       <p class="state">Status: <span id="state3">%STATE3%</span></p>
       <p><button id="button3" class="button">Button 3</button></p>
-	  <h2>Out - GPIO 26</h2>
+      <h2>Out - GPIO 26</h2>
       <p class="state">Status: <span id="state4">%STATE4%</span></p>
       <p><button id="button4" class="button">Button 4</button></p>
-	  <h2>Out - GPIO 27</h2>
+      <h2>Out - GPIO 27</h2>
       <p class="state">Status: <span id="state5">%STATE5%</span></p>
       <p><button id="button5" class="button">Button 5</button></p>
+      <br>
+      <br>
+      <div><a href="/update" class="ota">Update</a></div>
+      <br>
     </div>
   </div>
   <script src="/script.js"></script>
 </body>
+
 </html>
